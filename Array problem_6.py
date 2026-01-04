@@ -1,3 +1,12 @@
+'''
+Problem
+
+Given an array of integers and a target value, find two numbers in the array whose sum is equal to the target.
+
+Example:
+Input: arr = [2, 7, 11, 15], target = 9
+Output: (2, 7)
+'''
 def two_sum(arr,target):
     seen = set()
 
@@ -11,3 +20,4 @@ def two_sum(arr,target):
 arr=[2, 7, 11, 15]
 target = 9
 print(two_sum(arr,target))
+
