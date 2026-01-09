@@ -1,3 +1,20 @@
+'''
+Problem Statement:
+
+You are given an array and an integer k.
+Find the maximum possible sum of any contiguous subarray of size k.
+
+This is a classic sliding-window problem.
+
+Example
+
+Input:
+arr = [2, 1, 5, 1, 3, 2]
+k = 3
+
+Output:
+9
+'''
 def max_sum_subarray_k(arr, k):
     if k > len(arr):
         return None
@@ -14,3 +31,4 @@ def max_sum_subarray_k(arr, k):
 arr = [2, 1, 5, 1, 3, 2]
 k = 3
 print(max_sum_subarray_k(arr, k))
+
