@@ -1,3 +1,17 @@
+'''
+Problem Statement:
+
+You are given an unsorted array. Find the length of the longest sequence of consecutive numbers (like 4,5,6,7).
+Return only the length.
+
+Example
+
+Input:
+arr = [100, 4, 200, 1, 3, 2]
+
+Output:
+4
+'''
 def longest_consecutive(nums):
     num_set = set(nums)
     longest = 0
@@ -17,3 +31,4 @@ def longest_consecutive(nums):
 
 arr = [100, 4, 200, 1, 3, 2]
 print(longest_consecutive(arr))
+
