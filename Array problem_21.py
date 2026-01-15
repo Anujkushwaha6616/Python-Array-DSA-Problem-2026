@@ -1,3 +1,13 @@
+'''
+Problem — Find the Longest Subarray With All Distinct Elements
+Example
+
+Input:
+arr = [4, 2, 1, 2, 5, 3, 5, 1, 2]
+
+Output:
+4
+'''
 def longest_unique_subarray(arr):
     window = set()
     left = 0
@@ -16,3 +26,4 @@ def longest_unique_subarray(arr):
 # Example
 arr = [4, 2, 1, 2, 5, 3, 5, 1, 2]
 print(longest_unique_subarray(arr))
+
