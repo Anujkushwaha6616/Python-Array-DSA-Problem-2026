@@ -1,17 +1,10 @@
 '''
 Given an array, find the length of the longest subarray where the difference between the maximum and minimum element is at most 1.
-
-Example
-
 Input:
 arr = [1, 2, 2, 1, 3]
-
 Explanation:
-
 Subarray [1,2,2,1] → max = 2, min = 1 → diff = 1 → valid
-
 Length = 4
-
 Output:
 4
 '''
@@ -41,3 +34,4 @@ def longest_subarray(arr):
 # Example
 arr = [1, 2, 2, 1, 3]
 print(longest_subarray(arr))  # Output: 4
+
