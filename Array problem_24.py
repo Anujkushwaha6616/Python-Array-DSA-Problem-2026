@@ -1,5 +1,5 @@
 '''
-Problem Statement:
+Problem:
 Given an integer array, find the second largest distinct element. If it doesn’t exist, return -1.
 
 Example
@@ -15,4 +15,5 @@ def second_largest(arr):
     return unique[-2]
 
 print(second_largest([4, 1, 9, 7, 9]))
+
 
