@@ -1,9 +1,5 @@
 '''
-Problem:
-Given an array, move all zeroes to the end without changing the order of non-zero elements.
-
-Example
-
+Problem: Given an array, move all zeroes to the end without changing the order of non-zero elements.
 Input: [0, 3, 0, 5, 1]
 Output: [3, 5, 1, 0, 0]
 '''
@@ -13,5 +9,6 @@ def move_zeroes(arr):
     return result + [0] * zero_count
 
 print(move_zeroes([0, 3, 0, 5, 1]))
+
 
 
