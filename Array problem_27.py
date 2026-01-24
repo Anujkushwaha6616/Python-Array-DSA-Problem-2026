@@ -1,8 +1,17 @@
 
 '''
 Problem Statement:
+
 Given an array arr[] of size N and an integer K, print all elements of the array that appear more than N / K times.
 
+Example:
+
+Input:
+arr = [3, 4, 4, 5, 5, 5, 5]
+K = 4
+
+Output:
+4 5
 '''
 def more_than_n_by_k(arr, K):
     n = len(arr)
@@ -32,4 +41,5 @@ print(more_than_n_by_k(arr1, K1))  # Output: [6]
 arr2 = [3, 4, 4, 5, 5, 5, 5]
 K2 = 4
 print(more_than_n_by_k(arr2, K2))  # Output: [4, 5]
+
 
