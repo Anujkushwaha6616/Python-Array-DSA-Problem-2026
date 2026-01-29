@@ -1,8 +1,6 @@
 '''
-Problem
-
+Problem:
 Given an array and an integer K, count how many continuous subarrays have a sum exactly equal to K.
-
 Example
 Input: arr = [1, 1, 1], K = 2
 Output: 2
@@ -25,4 +23,5 @@ def count_subarrays_sum_k(arr, K):
 
 
 print(count_subarrays_sum_k([1, 1, 1], 2))
+
 
