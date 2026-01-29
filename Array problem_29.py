@@ -1,9 +1,7 @@
 '''
-Problem
-
+Problem:
 Given an array of integers, find the smallest positive number that is not present in the array.
-
-Example
+Example:
 Input:  [3, 4, -1, 1]
 Output: 2
 '''
@@ -18,4 +16,5 @@ def first_missing_positive(arr):
 
 
 print(first_missing_positive([3, 4, -1, 1]))
+
 
